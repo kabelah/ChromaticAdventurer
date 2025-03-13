@@ -31,11 +31,9 @@ Credit is **shared equally** with my respective group members.
 - ✅ **Interactive Mode**: Allows users to experiment with graph coloring solutions.
 - ✅ **Algorithmic Insights**: Implements various coloring strategies.
 
----
 
-## Getting Started
 
-### Clone the Repository
-```sh
-git clone https://github.com/yourusername/Chromatic-Adventurer.git
-cd Chromatic-Adventurer
+## This is the 3rd and final phase of this project
+
+Phases 1 and 2 are included within the repository, however they are outside the source root and require some extraction in order to run properly.
+
