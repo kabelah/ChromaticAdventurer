@@ -1,0 +1,1 @@
+Run the program by running the Main.java file.
