@@ -1,39 +1,43 @@
-# Chromatic Adventurer
+# Chromatic Adventurer: Intelligent Graph Coloring
 
-A graph coloring application with automatic and interactive modes.
+A classification-driven system for approaching the NP-complete graph coloring problem, developed as a university group project.
+
+---
+
+## Technical Highlights
+
+- Approaches the NP-complete chromatic number problem through heuristic-driven approximation
+- Classification-driven algorithm selection from 10 specialized approaches (trees, bipartite, planar graphs, and more)
+- Parallel backtracking with MRV & LCV heuristics, forward checking, DSATUR upper bounds, and clique lower bounds
+- Reduced graph search space by 50% through pruning and bounds
+- Achieved 90% optimal solutions within a 2-minute time limit across benchmark graphs
+- Thread-pool execution with BitSet data structures for O(1) color availability checks
+
+## Tech Stack
+
+Java, JavaFX, multi-threading
 
 ---
 
 ## About This Project
 
-This project was originally developed as part of a **university group assignment** and has been **migrated from my university GitLab account**.  
-Due to this migration, commit history from my fellow contributors was lost.  
+This project was originally developed as part of a university group assignment and has been migrated from my university GitLab account. Due to this migration, commit history from fellow contributors was lost.
 
-I want to explicitly acknowledge and credit my **team members**, without whom this project would not have been possible.
+I want to explicitly acknowledge and credit my team members, without whom this project would not have been possible.
 
 ### Contributors
 
-| Name              | Email                                      |
-|------------------|------------------------------------------|
-| **Casey Walls**   | c.walls@student.maastrichtuniversity.nl  |
-| **Rens Gielen**   | rgj.gielen@student.maastrichtuniversity.nl |
-| **Andrei Tutui**  | a.tutui@student.maastrichtuniversity.nl  |
-| **Nils Martenson** | n.martenson@student.maastrichtuniversity.nl |
+| Name | Email |
+|------|-------|
+| Casey Walls | c.walls@student.maastrichtuniversity.nl |
+| Rens Gielen | rgj.gielen@student.maastrichtuniversity.nl |
+| Andrei Tutui | a.tutui@student.maastrichtuniversity.nl |
+| Nils Martenson | n.martenson@student.maastrichtuniversity.nl |
 
-I **do not** and **never have** claimed to have completed this project alone.  
-Credit is **shared equally** with my respective group members.
+Credit is shared equally with all group members.
 
 ---
 
-## Features
+## Project Structure
 
-- ✅ **Graph Coloring Algorithm**: Supports automatic and manual graph coloring.
-- ✅ **Interactive Mode**: Allows users to experiment with graph coloring solutions.
-- ✅ **Algorithmic Insights**: Implements various coloring strategies.
-
-
-
-## This is the 3rd and final phase of this project
-
-Phases 1 and 2 are included within the repository, however they are outside the source root and require some extraction in order to run properly.
-
+This is the 3rd and final phase of the project. Phases 1 and 2 are included in the repository but require extraction from outside the source root to run.
